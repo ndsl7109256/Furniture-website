@@ -5,7 +5,8 @@
     <title></title>
 </head>
 <body>
-<div id ="AA">搖晃手機，手機震動</div>
+<div id ="AA">搖我呀</div>
+<button onclick="vibration()">點一下呀</button>
 </body>
 <script type="text/javascript">
 var x=document.getElementById("AA");
@@ -39,7 +40,8 @@ function deviceMotionHandler(eventData) {
         }
 }
 function vibration(){
-    x.innerHTML="晃爽沒";	
+	alert("晃爽沒");
+    
 }
 </script>
 </html>
